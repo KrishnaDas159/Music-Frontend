@@ -200,11 +200,6 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen watercolor-bg overflow-hidden">
-      <div className="fixed inset-0 opacity-30">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-yellow-400/20 to-transparent rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-40 right-40 w-80 h-80 bg-gradient-radial from-purple-400/15 to-transparent rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-blue-400/10 to-transparent rounded-full blur-3xl animate-pulse delay-2000"></div>
-      </div>
 
       <div className="relative z-10 flex min-h-screen">
         <div className="w-20 glass-panel m-4 rounded-2xl p-4 flex flex-col items-center space-y-6">
