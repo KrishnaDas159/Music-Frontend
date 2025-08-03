@@ -146,11 +146,14 @@ const Dashboard = () => {
   const handlePlayClick = useCallback(
     (e: React.MouseEvent, song: Song) => {
       e.stopPropagation();
-      setCurrentSong(song);
+      if (!song.audio) {
+        toast.error("No audio available for this song");
+        return;
+      }
+      setCurrentSong({ ...song, url: song.audio }); // pass as url
     },
     [setCurrentSong]
   );
-
   const handleBuyTokenClick = (e: React.MouseEvent, song: Song) => {
     e.stopPropagation();
     navigate(`/music/${song.id}`);
