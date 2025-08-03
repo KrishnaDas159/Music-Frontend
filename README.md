@@ -1,73 +1,33 @@
-# Welcome to your Lovable project
+# TrueValue
 
-## Project info
+TrueValue is an platform which lets you invest in music created by artists on platform. While u bought that NFT you can earn yield on your investment as the music grows and gains popularity. Built on SUI and ETH Network.
 
-**URL**: https://lovable.dev/projects/8c5fa1dd-085b-4768-8d24-f013999cb443
+## 🌟 Features
 
-## How can I edit this code?
+### Core Capabilities
+- **Tokenize your uploaded music** - Lets you publish your music and tokenize it as a creator.
+- **Earning yield on investment** - Your invested money earns yield as per the music grows and protcol performs
+- **Yield Protocols** - Invested money gets into yield protocol of SUI to earn yield on it.
+- **Listen music** - As a listener you can listein to creators music on the platform
 
-There are several ways of editing your application.
+### Technology Stack
+- 1inch Swap API - Integrated 1inch swap for swap module between SUI and ETH
+- Move and Solidity - Used Move and Solidity for SUI and ETH smart contracts
+- Privy & SUI Kit - Integrated Privyio and SUI wallet kit for wallet connection
 
-**Use Lovable**
+## 👥 Team
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8c5fa1dd-085b-4768-8d24-f013999cb443) and start prompting.
+- **Manik** - [Github](https://github.com/trishul09/)
+- **Krishna** - [Github](http://github.com/krishnaDas159/)
+- **Rohan** - [rohanBuilds](https://rohanbuilds.vercel.app/)
+- **Bhaumik** - []()
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔗 Links
 
-**Use your preferred IDE**
+- **Backend**: [Backend Repo](https://github.com/Trishul09/Music-backend-final)
+- **SUI Contracts**: [SUI Smart Contracts](https://github.com/Trishul09/sui_modules2)
+- **Swap Module**: [SUI Swap Module](https://github.com/Trishul09/swap_sui2)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📄 License
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8c5fa1dd-085b-4768-8d24-f013999cb443) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the [MIT License](LICENSE).
